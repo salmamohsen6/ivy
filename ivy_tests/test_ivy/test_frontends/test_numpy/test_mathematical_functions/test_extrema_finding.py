@@ -75,7 +75,7 @@ def test_numpy_minimum(
     ),
     native_array=helpers.array_bools(),
 )
-   def test_numpy_fmin(
+def test_numpy_fmin(
     dtype_and_x,
     dtype,
     where,
