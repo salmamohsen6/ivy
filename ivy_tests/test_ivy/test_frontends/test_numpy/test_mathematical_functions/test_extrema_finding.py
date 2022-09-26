@@ -60,7 +60,8 @@ def test_numpy_minimum(
         test_values=False,
     )
  
-#fmin
+
+# fmin
 @handle_cmd_line_args
 @given(
     dtype_and_x=helpers.dtype_and_values(
